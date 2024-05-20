@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linktree Template</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+      body {
+  background: url('bintang.jpeg') no-repeat center center;
+  background-size: 100% 100%; /* Menutupi seluruh area dengan tinggi dan lebar 100% */
+  font-family: Sans-Serif;
+  margin: 0; /* Menghapus margin agar tidak ada ruang kosong */
+  padding: 0; /* Menghapus padding agar tidak ada ruang kosong */
+  height: 130vh; /* Menetapkan tinggi body sama dengan tinggi viewport */
+}
+
+    .wallpaper {
+      position: relative;
+      width: 100%;
+      height: 20%;
+      background: url('background.jpeg') no-repeat center center;
+      background-size: cover;
+      bottom: 50px;
+    }
+
+    .container {
+      margin-top: -100px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .profile img {
+      margin-bottom: 20px;
+      border: 2px solid white;
+    }
+
+    .profile h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .profile p {
+      font-size: 1.2em;
+      color: #666;
+    }
+
+    .links .btn {
+      margin: 20px 10px 0 0;
+      padding: 10px 10px 10px 50px; /* Add left padding for icon space */
+      font-size: 1.2em;
+      transition: transform 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: center; /* Center text */
+      position: relative; /* Required for absolute positioning of icon */
+    }
+
+    .links .btn i {
+      margin-right: 10px;
+      position: absolute; /* Position icon absolutely */
+      left: 15px; /* Position icon 15px from the left */
+    }
+
+    .links .btn:hover {
+      transform: scale(1.05);
+    }
+
+    .social-icons a {
+      color: #ffffff;
+      font-size: 1.5em;
+      margin: 0 10px;
+      transition: color 0.3s;
+      
+    }
+    .social-icons a:hover {
+      color: blue; /* change to appropriate color on hover */
+    }
+    .garis-bawah{
+      margin-top: 10px;
+      width: 100%;
+      border: 2px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+<div class="wallpaper"></div>
+<div class="container text-center">
+  <div class="profile">
+    <img src="profil.jpg" alt="Profile Picture" class="rounded-circle" width="100">
+    <h1 class="text-white">Bang Yahya</h1>
+    <p>"Pada akhirnya, perjalanan hidupku yang pahit telah membawaku kepada kedamaian dan penerimaan akan diriku sendiri."</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/pencari.ruju.9" target="_blank"><i class="fab fa-facebook"></i></i>
+      <a href="https://www.instagram.com/yahyakyb123?igsh=MXZpczB3cTFtZnVhMQ==" target="_blank"><i class="fab fa-instagram"></i></i>
+      <a href="https://www.linkedin.com/in/muhamad-yahya-b3680128b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></i>
+    </div>
+  </div>
+  <div class="garis-bawah"></div>
+  <div class="links">
+    <a href="#" class="btn btn-secondary btn-block shadow"><i class="fas fa-globe"></i>Website</a>
+    <a href="https://wa.me/6285163594245?text=Halo
+" class="btn btn-secondary btn-block shadow"><i class="fas fa-address-book shadow"></i>Kontak</a>
+    <a href="#" class="btn btn-secondary btn-block shadow"><i class="fas fa-concierge-bell"></i>Layanan</a>
+    <a href="#" class="btn btn-secondary btn-block shadow"><i class="fas fa-chalkboard-teacher"></i>Kelas Online</a>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
